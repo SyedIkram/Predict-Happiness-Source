@@ -19,4 +19,7 @@ The training set contains more than 60,000 samples, while your trained model wil
 | Predicted_category | Source of happiness | object |
 
 # Solution
+Technical Stack Requirements: Spark 2.3+, Python 3.5+, Numpy, Pandas
+Command to run the file: # spark-submit hacker.py
+
 Built a supervised learning classification model i.e Logistic Regression using spark mllib to predict the cause of happiness through text-based reflection and performed an evaluation using MulticlassClassificationEvaluator. The model achieved an accuracy of ~82%.
