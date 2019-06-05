@@ -1,0 +1,2 @@
+# Predict-Happiness-Source
+As a part of the Happiness Source Predictor coding challenge given by HackerEarth, build a supervised learning classification model using Logistic Regression to predict the cause of happiness through text-based reflection (happy moment statement) on the SmileDB dataset of the corpus and performed an evaluation using MulticlassClassificationEvaluator. The model achieved an accuracy of ~82%.
