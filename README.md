@@ -1,5 +1,5 @@
 # Predict-Happiness-Source
-As a part of the Happiness Source Predictor coding challenge given by HackerEarth, build a supervised learning classification model using Logistic Regression to predict the cause of happiness through text-based reflection (happy moment statement) on the SmileDB dataset of the corpus and performed an evaluation using MulticlassClassificationEvaluator. The model achieved an accuracy of ~82%.
+Happiness Source Predictor coding challenge given by HackerEarth
 
 # Problem
 SmileDB is a corpus of more than 100,000 happy moments crowd-sourced via Amazon’s Mechanical Turk. Each worker is given the following task: What made you happy today? Reflect on the past 24 hours, and recall three actual events that happened to you that made you happy. Write down your happy moment in a complete sentence. (Write three such moments.)
@@ -18,3 +18,5 @@ The training set contains more than 60,000 samples, while your trained model wil
 | Num_sentence | No. of sentences present in the person’s statement. | Int64 |
 | Predicted_category | Source of happiness | object |
 
+# Solution
+Built a supervised learning classification model i.e Logistic Regression using spark mllib to predict the cause of happiness through text-based reflection and performed an evaluation using MulticlassClassificationEvaluator. The model achieved an accuracy of ~82%.
