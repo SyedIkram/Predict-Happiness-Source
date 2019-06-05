@@ -8,4 +8,13 @@ The goal of the corpus is to advance the understanding of the causes of happines
 Based on the happy moment statement you have to predict the category of happiness, i.e. the source of happiness which is typically either of the following: 'bonding', 'achievement', 'affection', 'leisure', 'enjoy_the_moment', 'nature', 'exercise'.
 
 # Data description
+The training set contains more than 60,000 samples, while your trained model will be tested on more than 40,000 samples.
+
+| Column Name | Column Description | Column Datatype |
+| --- | --- | --- |
+| Hmid | Id of the person | Int64 |
+| Reflection_period | The time of happiness | Object |
+| Cleaned_hm | Happiness Statement Made | Object |
+| Num_sentence | No. of sentences present in the person’s statement. | Int64 |
+| Predicted_category | Source of happiness | object |
 
