@@ -1,5 +1,5 @@
 # Predict-Happiness-Source
-Happiness Source Predictor coding challenge given by HackerEarth
+Happiness Source Predictor coding challenge by HackerEarth
 
 # Problem
 SmileDB is a corpus of more than 100,000 happy moments crowd-sourced via Amazon’s Mechanical Turk. Each worker is given the following task: What made you happy today? Reflect on the past 24 hours, and recall three actual events that happened to you that made you happy. Write down your happy moment in a complete sentence. (Write three such moments.)
